@@ -3,7 +3,7 @@
 let number;
 
 while(Number.isInteger(number) === false ){
-    number = parseInt(prompt("Veuillez saisir un nombre : "));
+    number = Number(prompt("Veuillez saisir un nombre : "));
 }
 
 let resultat = "";
